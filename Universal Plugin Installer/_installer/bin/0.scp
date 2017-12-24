@@ -1,0 +1,80 @@
+    # generates a list of all .png files
+    allFiles = File.readDirectory("Graphics\\Battlers".full_path,["*.png"])
+    files = []
+    # pushes the necessary file names into the main processing list
+    for i in 1..649
+      species = sprintf("%03d",i)
+      j = 0
+      (allFiles.length).times do
+        sprite = allFiles[j]
+        if sprite.include?(species)
+          files.push(sprite)
+          allFiles.delete_at(j)
+        else
+          j += 1
+        end
+      end
+    end
+    # starts automatic renaming
+    unless files.empty? && !allFiles.include?("egg.png") && !allFiles.include?("eggCracks.png")
+        dir = "Graphics\\Battlers".full_path + "\\"
+        # creates new directories if necessary
+        for ext in ["Front\\","Back\\","FrontShiny\\","BackShiny\\","Eggs\\"]
+		  final = dir+ext
+          Dir.mkdir(final) if !File.safeDirectory?(final)
+          Dir.mkdir(final+"Female\\") if !File.safeDirectory?(final+"Female\\") && ext != "Eggs\\"
+        end
+		t = Time.now
+        for file in files
+          user = (dir+file)
+          dest = dir
+          # generates target directory and target name
+          if file.include?("egg") || file.include?("Egg")
+            dest = dir+"Eggs\\"
+            if file.include?("eggCracks")
+              new_name = file.gsub(/eggCracks/) {|s| "cracks" }
+            elsif file.include?("Egg")
+              new_name = file.gsub(/Egg/) {|s| "" } 
+            else
+              new_name = file.gsub(/egg/) {|s| "" }
+            end
+          elsif file.include?("s")
+            if file.include?("b")
+              dest = dir+"BackShiny\\"
+              new_name = file.gsub(/sb/) {|s| "" }
+            else
+              dest = dir+"FrontShiny\\"
+              new_name = file.gsub(/s/) {|s| "" }
+            end
+          else
+            if file.include?("b")
+              dest = dir+"Back\\"
+              new_name = file.gsub(/b/) {|s| "" }
+            else
+              dest = dir+"Front\\"
+              new_name = file
+            end
+          end
+          if file.include?("f")
+            dest += "Female\\"
+            new_name.gsub!(/f/) {|s| "" }
+          end
+          target = dest+new_name
+          # moves the files into their appropriate folders
+          File.rename(user,target)
+		  $cachedFiles.push(target)
+		  if Time.now > t + 4
+		    Graphics.update
+			t = Time.now
+		  end
+        end
+      end
+      # Egg conversion
+      allFiles = File.readDirectory("Graphics\\Battlers".full_path,["*.png"])
+      for file in allFiles
+        if file == "egg.png"
+          File.rename("Graphics\\Battlers\\egg.png".full_path,"Graphics\\Battlers\\Eggs\\000.png".full_path)
+        elsif file == "eggCracks.png"
+          File.rename("Graphics\\Battlers\\eggCracks.png".full_path,"Graphics\\Battlers\\Eggs\\000cracks.png".full_path)
+        end
+    end
