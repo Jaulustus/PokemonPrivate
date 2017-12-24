@@ -2531,6 +2531,7 @@ module EBS_EggHatching
         @sprites["msgwindow"] = Kernel.pbCreateMessageWindow(@viewport)
         @sprites["msgwindow"].visible = false
         @sprites["msgwindow"].z = 9999
+<<<<<<< HEAD
         # particles for the background
         for j in 0...6
           @sprites["l#{j}"] = Sprite.new(@viewport)
@@ -2734,3 +2735,6 @@ end
 if defined?(PokemonEggHatchScene)
   PokemonEggHatchScene.send(:include,EBS_EggHatching)
 end
+=======
+        # pa
+>>>>>>> ffd3ad5219d5530d4170ad254a70a2131c9620dd
