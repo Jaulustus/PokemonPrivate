@@ -36,3 +36,29 @@
 47,East,8,52,West,0
 # Route 2 (21) - Route 7 (47)
 21,East,77,47,West,0
+# START STADT (33) - MAP077 (77)
+33,South,0,77,North,80
+# MAP048 (48) - MAP077 (77)
+48,South,0,77,North,0
+# MAP076 (76) - MAP077 (77)
+76,West,0,77,East,0
+# MAP043 (43) - MAP077 (77)
+43,West,40,77,East,0
+# MAP076 (76) - START STADT (33)
+76,North,40,33,South,0
+# MAP043 (43) - START STADT (33)
+43,East,0,33,West,0
+# START STADT (32) - START STADT (33)
+32,South,0,33,North,0
+# MAP076 (76) - MAP048 (48)
+76,West,0,48,East,40
+# MAP043 (43) - MAP048 (48)
+43,West,0,48,East,0
+# START STADT (32) - MAP048 (48)
+32,South,0,48,North,80
+# MAP043 (43) - MAP076 (76)
+43,South,0,76,North,0
+# START STADT (32) - MAP076 (76)
+32,West,80,76,East,0
+# START STADT (32) - MAP043 (43)
+32,West,40,43,East,0
