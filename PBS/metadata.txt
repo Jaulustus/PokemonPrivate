@@ -203,6 +203,9 @@ Outdoor=true
 BicycleAlways=true
 ShowArea=true
 #-------------------------------
+[042]
+# MAP042
+#-------------------------------
 [044]
 # Route 6
 MapSize=2,11

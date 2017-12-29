@@ -36,29 +36,159 @@
 47,East,8,52,West,0
 # Route 2 (21) - Route 7 (47)
 21,East,77,47,West,0
-# START STADT (33) - MAP077 (77)
-33,South,0,77,North,80
-# MAP048 (48) - MAP077 (77)
-48,South,0,77,North,0
+# MAP077 (77) - MAP082 (82)
+77,East,40,82,West,0
+# MAP083 (83) - MAP082 (82)
+83,North,120,82,South,0
+# MAP078 (78) - MAP082 (82)
+78,South,0,82,North,0
+# MAP084 (84) - MAP082 (82)
+84,North,80,82,South,0
+# MAP085 (85) - MAP082 (82)
+85,North,40,82,South,0
+# MAP086 (86) - MAP082 (82)
+86,North,0,82,South,0
+# MAP042 (42) - MAP082 (82)
+42,East,80,82,West,0
+# MAP081 (81) - MAP082 (82)
+81,East,0,82,West,0
+# MAP048 (48) - MAP082 (82)
+48,South,120,82,North,0
+# MAP076 (76) - MAP082 (82)
+76,South,80,82,North,0
+# MAP033 (33) - MAP077 (77)
+33,East,40,77,West,0
+# MAP078 (78) - MAP077 (77)
+78,West,0,77,East,0
+# MAP084 (84) - MAP077 (77)
+84,East,0,77,West,80
+# MAP079 (79) - MAP077 (77)
+79,North,80,77,South,0
+# MAP080 (80) - MAP077 (77)
+80,North,40,77,South,0
+# MAP086 (86) - MAP077 (77)
+86,West,0,77,East,80
+# MAP042 (42) - MAP077 (77)
+42,South,0,77,North,0
+# MAP081 (81) - MAP077 (77)
+81,North,0,77,South,0
 # MAP076 (76) - MAP077 (77)
-76,West,0,77,East,0
+76,East,0,77,West,0
 # MAP043 (43) - MAP077 (77)
 43,West,40,77,East,0
-# MAP076 (76) - START STADT (33)
-76,North,40,33,South,0
-# MAP043 (43) - START STADT (33)
-43,East,0,33,West,0
-# START STADT (32) - START STADT (33)
-32,South,0,33,North,0
+# MAP001 (32) - MAP077 (77)
+32,South,80,77,North,0
+# MAP083 (83) - MAP033 (33)
+83,East,0,33,West,120
+# MAP078 (78) - MAP033 (33)
+78,North,0,33,South,80
+# MAP079 (79) - MAP033 (33)
+79,East,0,33,West,80
+# MAP085 (85) - MAP033 (33)
+85,West,0,33,East,120
+# MAP042 (42) - MAP033 (33)
+42,West,0,33,East,0
+# MAP081 (81) - MAP033 (33)
+81,West,0,33,East,80
+# MAP048 (48) - MAP033 (33)
+48,North,40,33,South,0
+# MAP076 (76) - MAP033 (33)
+76,North,0,33,South,0
+# MAP001 (32) - MAP033 (33)
+32,East,0,33,West,0
+# MAP084 (84) - MAP083 (83)
+84,West,0,83,East,0
+# MAP079 (79) - MAP083 (83)
+79,South,0,83,North,0
+# MAP080 (80) - MAP083 (83)
+80,West,40,83,East,0
+# MAP081 (81) - MAP083 (83)
+81,South,0,83,North,80
+# MAP076 (76) - MAP083 (83)
+76,West,80,83,East,0
+# MAP079 (79) - MAP078 (78)
+79,North,120,78,South,0
+# MAP085 (85) - MAP078 (78)
+85,East,0,78,West,80
+# MAP080 (80) - MAP078 (78)
+80,North,80,78,South,0
+# MAP042 (42) - MAP078 (78)
+42,East,40,78,West,0
+# MAP081 (81) - MAP078 (78)
+81,North,40,78,South,0
+# MAP043 (43) - MAP078 (78)
+43,South,0,78,North,0
+# MAP001 (32) - MAP078 (78)
+32,South,120,78,North,0
+# MAP079 (79) - MAP084 (84)
+79,East,40,84,West,0
+# MAP085 (85) - MAP084 (84)
+85,West,0,84,East,0
+# MAP080 (80) - MAP084 (84)
+80,South,0,84,North,0
+# MAP042 (42) - MAP084 (84)
+42,West,120,84,East,0
+# MAP081 (81) - MAP084 (84)
+81,West,40,84,East,0
+# MAP048 (48) - MAP084 (84)
+48,East,80,84,West,0
+# MAP001 (32) - MAP084 (84)
+32,East,120,84,West,0
+# MAP085 (85) - MAP079 (79)
+85,North,0,79,South,80
+# MAP080 (80) - MAP079 (79)
+80,West,0,79,East,0
+# MAP086 (86) - MAP079 (79)
+86,North,0,79,South,120
+# MAP048 (48) - MAP079 (79)
+48,South,0,79,North,0
+# MAP076 (76) - MAP079 (79)
+76,West,40,79,East,0
+# MAP080 (80) - MAP085 (85)
+80,East,40,85,West,0
+# MAP086 (86) - MAP085 (85)
+86,West,0,85,East,0
+# MAP081 (81) - MAP085 (85)
+81,South,0,85,North,0
+# MAP076 (76) - MAP085 (85)
+76,East,80,85,West,0
+# MAP043 (43) - MAP085 (85)
+43,West,120,85,East,0
+# MAP086 (86) - MAP080 (80)
+86,North,0,80,South,80
+# MAP042 (42) - MAP080 (80)
+42,West,80,80,East,0
+# MAP081 (81) - MAP080 (80)
+81,West,0,80,East,0
+# MAP048 (48) - MAP080 (80)
+48,East,40,80,West,0
+# MAP076 (76) - MAP080 (80)
+76,South,0,80,North,0
+# MAP001 (32) - MAP080 (80)
+32,East,80,80,West,0
+# MAP042 (42) - MAP086 (86)
+42,East,120,86,West,0
+# MAP081 (81) - MAP086 (86)
+81,East,40,86,West,0
+# MAP048 (48) - MAP042 (42)
+48,North,80,42,South,0
+# MAP076 (76) - MAP042 (42)
+76,North,40,42,South,0
+# MAP043 (43) - MAP042 (42)
+43,West,0,42,East,0
+# MAP048 (48) - MAP081 (81)
+48,South,80,81,North,0
+# MAP076 (76) - MAP081 (81)
+76,East,40,81,West,0
+# MAP043 (43) - MAP081 (81)
+43,West,80,81,East,0
 # MAP076 (76) - MAP048 (48)
-76,West,0,48,East,40
+76,West,0,48,East,0
 # MAP043 (43) - MAP048 (48)
-43,West,0,48,East,0
-# START STADT (32) - MAP048 (48)
-32,South,0,48,North,80
+43,South,0,48,North,120
+# MAP001 (32) - MAP048 (48)
+32,South,0,48,North,0
 # MAP043 (43) - MAP076 (76)
-43,South,0,76,North,0
-# START STADT (32) - MAP076 (76)
-32,West,80,76,East,0
-# START STADT (32) - MAP043 (43)
-32,West,40,43,East,0
+43,South,0,76,North,80
+# MAP001 (32) - MAP076 (76)
+32,East,40,76,West,0
