@@ -204,7 +204,7 @@ BicycleAlways=true
 ShowArea=true
 #-------------------------------
 [042]
-# MAP042
+# Waldinsel 1
 #-------------------------------
 [044]
 # Route 6
