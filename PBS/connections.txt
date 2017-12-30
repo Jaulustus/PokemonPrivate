@@ -1,2 +1,36 @@
 # Heiminselgruppe (32) - Waldinsel 1 (42)
-32,North,23,42,South,0
+32,North,13,42,South,0
+# MAP079 (79) - MAP077 (77)
+79,South,40,77,North,0
+# MAP080 (80) - MAP077 (77)
+80,West,0,77,East,0
+# route 001 (48) - MAP077 (77)
+48,East,20,77,West,0
+# MAP076 (76) - MAP077 (77)
+76,East,0,77,West,0
+# Our map (43) - MAP077 (77)
+43,South,0,77,North,0
+# MAP079 (79) - MAP078 (78)
+79,South,0,78,North,0
+# route 001 (48) - MAP078 (78)
+48,West,20,78,East,0
+# MAP076 (76) - MAP078 (78)
+76,West,0,78,East,0
+# Our map (43) - MAP078 (78)
+43,South,0,78,North,40
+# MAP080 (80) - MAP079 (79)
+80,North,0,79,South,60
+# route 001 (48) - MAP079 (79)
+48,West,0,79,East,10
+# MAP076 (76) - MAP079 (79)
+76,West,0,79,East,30
+# route 001 (48) - MAP080 (80)
+48,South,40,80,North,0
+# Our map (43) - MAP080 (80)
+43,South,20,80,North,0
+# MAP076 (76) - route 001 (48)
+76,North,0,48,South,0
+# Our map (43) - route 001 (48)
+43,West,0,48,East,0
+# Our map (43) - MAP076 (76)
+43,West,20,76,East,0
