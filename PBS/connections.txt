@@ -1,36 +1,42 @@
 # Heiminselgruppe (32) - Waldinsel 1 (42)
 32,North,13,42,South,0
-# MAP079 (79) - MAP077 (77)
+# ROUTE 0001 (48) - MAP082 (82)
+48,North,16,82,South,0
+# Ancient Temple Outside (81) - MAP082 (82)
+81,West,0,82,East,20
+# Start Stadt (43) - MAP082 (82)
+43,North,0,82,South,4
+# Cavemountain 001 (79) - Coast 003 (77)
 79,South,40,77,North,0
-# MAP080 (80) - MAP077 (77)
+# Coast 004 (80) - Coast 003 (77)
 80,West,0,77,East,0
-# route 001 (48) - MAP077 (77)
-48,East,20,77,West,0
-# MAP076 (76) - MAP077 (77)
+# ROUTE 0001 (48) - Coast 003 (77)
+48,East,5,77,West,0
+# Ancient Temple Outside (81) - Coast 003 (77)
+81,South,0,77,North,26
+# Coast 001 (76) - Coast 003 (77)
 76,East,0,77,West,0
-# Our map (43) - MAP077 (77)
-43,South,0,77,North,0
-# MAP079 (79) - MAP078 (78)
+# Cavemountain 001 (79) - Coast 002 (78)
 79,South,0,78,North,0
-# route 001 (48) - MAP078 (78)
-48,West,20,78,East,0
-# MAP076 (76) - MAP078 (78)
+# ROUTE 0001 (48) - Coast 002 (78)
+48,West,5,78,East,0
+# Ancient Temple Outside (81) - Coast 002 (78)
+81,South,0,78,North,66
+# Coast 001 (76) - Coast 002 (78)
 76,West,0,78,East,0
-# Our map (43) - MAP078 (78)
-43,South,0,78,North,40
-# MAP080 (80) - MAP079 (79)
+# Coast 004 (80) - Cavemountain 001 (79)
 80,North,0,79,South,60
-# route 001 (48) - MAP079 (79)
-48,West,0,79,East,10
-# MAP076 (76) - MAP079 (79)
+# ROUTE 0001 (48) - Cavemountain 001 (79)
+48,West,0,79,East,25
+# Coast 001 (76) - Cavemountain 001 (79)
 76,West,0,79,East,30
-# route 001 (48) - MAP080 (80)
-48,South,40,80,North,0
-# Our map (43) - MAP080 (80)
-43,South,20,80,North,0
-# MAP076 (76) - route 001 (48)
-76,North,0,48,South,0
-# Our map (43) - route 001 (48)
+# Ancient Temple Outside (81) - Coast 004 (80)
+81,South,0,80,North,6
+# Start Stadt (43) - ROUTE 0001 (48)
 43,West,0,48,East,0
-# Our map (43) - MAP076 (76)
-43,West,20,76,East,0
+# Coast 001 (76) - Ancient Temple Outside (81)
+76,North,46,81,South,0
+# Start Stadt (43) - Ancient Temple Outside (81)
+43,East,0,81,West,10
+# Start Stadt (43) - Coast 001 (76)
+43,West,5,76,East,0
