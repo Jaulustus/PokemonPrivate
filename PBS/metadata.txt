@@ -204,7 +204,7 @@ BicycleAlways=true
 ShowArea=true
 #-------------------------------
 [042]
-# Waldinsel 1
+# UNUSED !
 #-------------------------------
 [044]
 # Route 6

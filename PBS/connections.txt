@@ -1,42 +1,52 @@
-# Heiminselgruppe (32) - Waldinsel 1 (42)
+# Heiminselgruppe (32) - UNUSED ! (42)
 32,North,13,42,South,0
-# ROUTE 0001 (48) - MAP082 (82)
+# Route 001 (48) - Forest Placeholder (82)
 48,North,16,82,South,0
-# Ancient Temple Outside (81) - MAP082 (82)
-81,West,0,82,East,20
-# Start Stadt (43) - MAP082 (82)
+# Ancient Temple Outside (81) - Forest Placeholder (82)
+81,West,0,82,East,35
+# Start Stadt (43) - Forest Placeholder (82)
 43,North,0,82,South,4
 # Cavemountain 001 (79) - Coast 003 (77)
 79,South,40,77,North,0
 # Coast 004 (80) - Coast 003 (77)
 80,West,0,77,East,0
-# ROUTE 0001 (48) - Coast 003 (77)
-48,East,5,77,West,0
+# Route 001 (48) - Coast 003 (77)
+48,East,20,77,West,0
 # Ancient Temple Outside (81) - Coast 003 (77)
 81,South,0,77,North,26
+# Start Stadt (43) - Coast 003 (77)
+43,South,0,77,North,0
 # Coast 001 (76) - Coast 003 (77)
 76,East,0,77,West,0
 # Cavemountain 001 (79) - Coast 002 (78)
 79,South,0,78,North,0
-# ROUTE 0001 (48) - Coast 002 (78)
-48,West,5,78,East,0
+# Route 001 (48) - Coast 002 (78)
+48,West,20,78,East,0
 # Ancient Temple Outside (81) - Coast 002 (78)
 81,South,0,78,North,66
+# Start Stadt (43) - Coast 002 (78)
+43,South,0,78,North,40
 # Coast 001 (76) - Coast 002 (78)
 76,West,0,78,East,0
 # Coast 004 (80) - Cavemountain 001 (79)
 80,North,0,79,South,60
-# ROUTE 0001 (48) - Cavemountain 001 (79)
-48,West,0,79,East,25
+# Route 001 (48) - Cavemountain 001 (79)
+48,West,0,79,East,10
 # Coast 001 (76) - Cavemountain 001 (79)
 76,West,0,79,East,30
+# Route 001 (48) - Coast 004 (80)
+48,South,40,80,North,0
 # Ancient Temple Outside (81) - Coast 004 (80)
 81,South,0,80,North,6
-# Start Stadt (43) - ROUTE 0001 (48)
+# Start Stadt (43) - Coast 004 (80)
+43,South,20,80,North,0
+# Start Stadt (43) - Route 001 (48)
 43,West,0,48,East,0
+# Coast 001 (76) - Route 001 (48)
+76,North,0,48,South,0
+# Start Stadt (43) - Ancient Temple Outside (81)
+43,East,5,81,West,0
 # Coast 001 (76) - Ancient Temple Outside (81)
 76,North,46,81,South,0
-# Start Stadt (43) - Ancient Temple Outside (81)
-43,East,0,81,West,10
-# Start Stadt (43) - Coast 001 (76)
-43,West,5,76,East,0
+# Coast 001 (76) - Start Stadt (43)
+76,North,20,43,South,0
